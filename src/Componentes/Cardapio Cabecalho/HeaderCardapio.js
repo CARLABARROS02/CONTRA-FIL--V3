@@ -1,4 +1,5 @@
 import React from "react"; //importar o react
+import './index.css'
 
 const HeaderCardapio = () => {
     return (

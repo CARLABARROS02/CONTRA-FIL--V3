@@ -29,8 +29,8 @@
     align-items: center;
   }
   
+  /* Estiliza os links de navegação, removendo sublinhado e aplicando cor e padding */
   nav ul li a {
-    /* Estiliza os links de navegação, removendo sublinhado e aplicando cor e padding */
     text-decoration: none;
     color: #2e7d32;
     font-weight: bold;
@@ -40,19 +40,19 @@
     -webkit-text-stroke: 1px black;
   }
   
+   /* Muda a cor e aplica um leve efeito ao passar o mouse */
   nav ul li a:hover {
-    /* Muda a cor e aplica um leve efeito ao passar o mouse */
     color: #FF9800;
     transform: scale(1.05);
   }
   
+  /* Define a cor ao clicar no link */
   nav ul li a:active {
-    /* Define a cor ao clicar no link */
     color: #e68900;
   }
   
+   /* Define o estilo do login/cadastro no cabeçalho */
   .login-cadastro {
-    /* Define o estilo do login/cadastro no cabeçalho */
     color: #2e7d32;
     font-weight: bold;
     text-decoration: none;
@@ -61,8 +61,8 @@
     font-size: 1.1em;
   }
   
+  /* Muda a cor ao passar o mouse sobre o link de login/cadastro */
   .login-cadastro:hover {
-    /* Muda a cor ao passar o mouse sobre o link de login/cadastro */
     color: #FF9800;
   }
   
