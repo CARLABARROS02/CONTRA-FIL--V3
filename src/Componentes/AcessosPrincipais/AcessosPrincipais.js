@@ -1,9 +1,6 @@
 import React from "react";
 import './index.css'
 
-
-
-
 const Acesso = () => {
   return (
     <div className="AcessosRapidos">

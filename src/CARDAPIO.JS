@@ -3,7 +3,7 @@ import HeaderCardapio from "./Componentes/Cardapio Cabecalho/HeaderCardapio";
 import PromoCardapio from "./Componentes/Cardapio Promocao/PromoCardapio";
 import ValoresCardapio from "./Componentes/Cardapio Valores/ValoresCardapio";
 
-function CARDAPIO() {
+const CARDAPIO = () => {
     return (
       <div className="divcardapio">
         <header className="cardapioHeader">
