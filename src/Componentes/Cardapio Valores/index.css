@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.cardapio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background-color: #a1ff97;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+button.adicionarCarrinho {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.adicionarCarrinho:hover {
+    background-color: #ff4500;
+}
+
+@media (max-width: 600px) {
+    .cardapio {
+        padding: 20px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    button.adicionarCarrinho {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}

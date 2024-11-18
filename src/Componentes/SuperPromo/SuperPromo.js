@@ -10,7 +10,7 @@ const SuperPromo = () => {
     return (
         <section className='container'>
             <div className='conteudo-promo'>
-                <img src='bannerpromo.svg' alt='Banner Promocional'/>
+                <img src='bannerpromo01.png' />
             </div>
         </section>
     );

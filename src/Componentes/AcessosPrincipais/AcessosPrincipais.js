@@ -1,12 +1,13 @@
 import React from "react";
 import './index.css'
+import { Link } from "react-router-dom";
 
 const Acesso = () => {
   return (
     <div className="AcessosRapidos">
       <div>
         <img src="acessoCard.svg" alt="Acessar Cardápio" />
-        <button className="acessarCardapio"> Acessar Cardápio</button>
+        <Link to="/cardapio" className="acessarCardapio"> Acessar Cardápio</Link>
       </div>
       <div>
         <img src="FazerPedido.svg" alt="Fazer Pedido" />
