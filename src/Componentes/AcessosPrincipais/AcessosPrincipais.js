@@ -1,12 +1,14 @@
 import React from "react";
 import './index.css'
 
+
+
 const Acesso = () => {
   return (
     <div className="AcessosRapidos">
       <div>
         <img src="acessoCard.svg" alt="Acessar Cardápio" />
-        <button className="acessarCardapio"> Acessar Cardápio</button>
+        <button className="acessarCardapio"> Acessar Cardápio </button>
       </div>
       <div>
         <img src="FazerPedido.svg" alt="Fazer Pedido" />
