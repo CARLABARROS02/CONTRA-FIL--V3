@@ -1,6 +1,7 @@
 import React from "react"; //importar o react
 import './index.css'
 
+
 //agora definir o cabeçalho/header como uma função: const Cabeçalho.... 
 //irei utilizar a tag header para definir o cabeçalho e irei criar uma classe, pois terá uma estilização específica: <header className="header">
 //criar uma div para a logo do site e o título do site: <div className="logo">
@@ -15,7 +16,7 @@ const Cabecalho = () => {
         <div className="menu">
           <ul>
             <li><a href="#linkdosobre">Sobre & Empresa</a></li>
-            <li><a href="CARDAPIO.JS">Cardápio</a></li>
+            <li><a href="https://sites.google.com/view/contrafile-cardapio/in%C3%ADcio">Cardápio</a></li>
             <li><a href="#linkdolancamentos">Lançamentos</a></li>
             <li><a href="#linkdodelivery">Delivery</a></li>
             <li><a href="#linkdocontato">Contato</a></li>
