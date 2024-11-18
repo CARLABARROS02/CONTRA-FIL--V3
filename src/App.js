@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
-import Cabecalho from './Componentes/Cabecalho';
-import Lancamentos from './Componentes/Lancamentos';
-import Rodape from './Componentes/Rodape';
-import SuperPromo from './Componentes/SuperPromo';
-import Sobre from './Componentes/Sobre';
-import Acesso from './Componentes/AcessosPrincipais';
+import Cabecalho from './Componentes/Cabecalho/Cabecalho';
+import Lancamentos from './Componentes/Lancamentos/Lancamentos';
+import Rodape from './Componentes/Rodape/Rodape';
+import SuperPromo from './Componentes/SuperPromo/SuperPromo';
+import Sobre from './Componentes/Sobre/Sobre';
+import Acesso from './Componentes/AcessosPrincipais/AcessosPrincipais';
 
 function App() {
   return (

@@ -1,0 +1,19 @@
+.sobreEmpresa {
+    /* Estilo da seção "Sobre & Empresa": cor de fundo, padding, alinhamento do texto e bordas */
+    background-color: #DCF3DB;
+    font-family:Arima Madurai;
+    text-align: justify;
+    padding:1rem;
+    color: #000000;
+    line-height: 1.6;
+    margin: 30px 0;
+    border-radius: 10px;
+    margin:2rem 10rem 2rem 10rem;
+
+  
+  }
+  .text-info{
+    display:flex;
+    justify-content:space-evenly;
+    gap: 1rem;
+  }

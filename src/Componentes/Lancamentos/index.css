@@ -1,0 +1,48 @@
+.launch-section {
+    /* Define o estilo da seção "Lançamentos": padding e cor de fundo */
+    background-color: #e8f5e9;
+    margin:2rem 10rem 2rem 10rem;
+
+  }
+  
+  .launch-section h2 {
+    /* Estilo do título da seção "Lançamentos": alinhamento, tamanho da fonte e cor */
+    text-align: center;
+    font-size:   2em;
+    margin-bottom: 30px;
+    color: #4CAF50;
+  }
+  
+  .launch-list {
+    /* Organiza os itens da lista de lançamentos em formato flexível */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .launch-item {
+    /* Estilo de cada item de lançamento: largura e alinhamento do texto */
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align:center;
+  }
+  
+  .launch-item img {
+    /* Define o estilo das imagens dos lançamentos: tamanho, bordas e sombras */
+    border-radius: 20px;
+    transition: transform 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .launch-item p {
+    /* Define o estilo dos parágrafos dos lançamentos: margem e cor */
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  .text-header{
+    background: #E99C5824;
+
+  }

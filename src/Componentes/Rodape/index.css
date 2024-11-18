@@ -1,0 +1,24 @@
+footer.rodape {
+    /* Estiliza o rodapé da página: cor de fundo, cor do texto e alinhamento */
+    background-color:#C6EBC5;
+    color: black;
+    font-family:Arima Madurai;
+    padding: 30px;
+    margin-top: 50px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    font-size:20px;
+
+
+  }
+  
+.social-media{
+    display:flex;
+    align-items:center;
+    margin-left:1rem;
+    gap:1rem;
+}
+.social-media img{
+    width:76px;
+}

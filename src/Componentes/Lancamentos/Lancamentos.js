@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import './index.css'
 
 //criando uma função de Lançamento: const: LaunchSection()
 //criar um array/coleção de dados e cada objeto terá um nome e uma imagem
@@ -8,33 +9,28 @@ import React from 'react';
 
 const Nossoslancamentos = () => {
 
-const launches = [
-    { name: 'Penne ao Pesto', image: 'penneaopesto.jpg' },
-    { name: 'Moqueca de Berinjela', image: 'Muquecaberinjela.jpg' },
-    { name: 'Risoto com Pequi', image: 'risotocompequi.jpg' },
-    { name: 'Carne de Jaca', image: 'carnedejaca.jpg' },
+  const launches = [
+    { name: 'Penne ao Pesto', image: 'penne.svg' },
+    { name: 'Moqueca de Berinjela', image: 'moqueca.svg' },
+    { name: 'Risoto com Pequi', image: 'risoto.svg' },
+    { name: 'Carne de Jaca', image: 'carne.svg' },
   ];
 
   return (
     <section className="launch-section">
-
-      <h2>Nossos Lançamentos:</h2>
-      
+      <div className="text-header">
+        <h2>Nossos Lançamentos:</h2>
+      </div>
       <div className="launch-list">
-
         {launches.map((item, index) => (
-          
           <div key={index} className="launch-item">
-          
-            <img src={item.image} alt={item.name} />
-           
-            <p>{item.name}</p>
-
+            <div>
+              <img src={item.image} alt={item.name} />
+              <p>{item.name}</p>
+            </div>
           </div>
         ))}
-
       </div>
-
     </section>
 
   );
