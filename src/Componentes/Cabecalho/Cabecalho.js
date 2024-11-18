@@ -20,9 +20,10 @@ const Cabecalho = () => {
             <li><a href="#linkdolancamentos">Lançamentos</a></li>
             <li><a href="#linkdodelivery">Delivery</a></li>
             <li><a href="#linkdocontato">Contato</a></li>
+            <li><a href="#login/cadastro>">Login/cadastro</a></li>
+
           </ul>
         </div>
-        <a href="#login/cadastro>">Login/cadastro</a>
       </nav>
     </header>
   );

@@ -51,18 +51,3 @@
     color: #e68900;
   }
   
-   /* Define o estilo do login/cadastro no cabeçalho */
-  .login-cadastro {
-    color: #2e7d32;
-    font-weight: bold;
-    text-decoration: none;
-    margin-right: 10px;
-    transition: color 0.3s;
-    font-size: 1.1em;
-  }
-  
-  /* Muda a cor ao passar o mouse sobre o link de login/cadastro */
-  .login-cadastro:hover {
-    color: #FF9800;
-  }
-  
